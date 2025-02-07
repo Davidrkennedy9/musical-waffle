@@ -1,9 +1,10 @@
 class Shelter
-    attr_reader :location, :num
+    attr_reader :location, :num, :pets
 
     def initialize(location, num)
         @location = location
         @num = num
+        @pets = []
     end
     def name
         @location
@@ -11,8 +12,13 @@ class Shelter
     def capacity
         @num = 5
     end
-    def pets
-        pets = []
+    def add_pet(pets)
+        @pets << pets
     end
+    def call_pets
+        @pet == 
+        
+    end
+
 
 end
